@@ -1,0 +1,39 @@
+<!-- Lesson 8 exercises - Display: Block and Inline-Block -->
+
+<!--  8b. Create a paragraph and 2 buttons and place them on the same line 
+      (using width, display: inline block and vertical align: middle)       -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8b</title>
+    <style>
+        .question-paragraph
+        {
+            display: inline-block;
+            width: 200px;
+            vertical-align: middle;
+        }
+
+        .yes-button,.no-button
+        {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <p class="question-paragraph">
+        Thanks for chatting with our customer support. Would you like to take our quick survey?
+    </p>
+
+    <button class="yes-button">
+        Yes
+    </button>
+
+    <button class="no-button">
+        No
+    </button>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!-- Lesson 8 exercises - Display: Block and Inline-Block -->
+
+<!-- 8d. Uber request a ride form -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8e</title>
+    <style>
+    .request-button
+    {
+        background-color: black;
+        color: white;
+        height: 36px;
+        width: 120px;
+        cursor: pointer;
+        margin-top: 0px;
+        margin-right: 10px;
+    }
+
+    .schedule-button
+    {
+        color: black;
+        background-color: rgb(235, 235, 235);
+        height: 36px;
+        width: 120px;
+        cursor: pointer;
+        border: none;
+        margin-top: 0px;
+
+    }
+
+    .pickup-box,.destination-box
+    {
+        display: block;
+        margin-top: 0px;
+        height: 36px;
+        border: none;
+        background-color: rgb(235, 235, 235);
+        width: 250px;
+
+
+    }
+    .pickup-box
+    {
+        margin-bottom: 5px;
+    }
+
+    .destination-box
+    {
+        margin-bottom: 20px;
+    }
+    .title
+    {
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body>
+    <p class="title">
+        Request a ride now
+    </p>
+
+    <input class="pickup-box" type="textbox" placeholder="Enter pickup location">
+
+    <input class="destination-box" type="textbox" placeholder="Enter destination">
+
+    <button class="request-button">
+        Request now
+    </button>
+
+    <button class="schedule-button">
+        Schedule for later
+    </button>
+</body>
+</html>
