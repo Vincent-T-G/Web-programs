@@ -1,0 +1,118 @@
+<!--Lesson 9 exercises - The div element -->
+
+<!-- 9g. Take exercise 9f. set display: inline block on the div and duplicate the design a few times -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 9g</title>
+    <style>
+        div
+        {
+            margin-left: 50px;
+            margin-top: 50px;
+            width: 250px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+            height: 400px;
+            display: inline-block;
+        }
+
+        .picture
+        {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .name-text
+        {
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .mutual-text
+        {
+            font-size: 18px;
+            color: rgb(89, 89, 89);
+            margin-left: 10px;
+            margin-top: 0px;
+        }
+
+        button
+        {
+            font-size: 20px;
+            color: white;
+            background-color: rgb(29, 115, 169);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: 10px;
+            border-radius: 3px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+
+        <img class="picture" src="picture/cat.jpg">
+
+        <p class="name-text">
+            Oliver
+        </p>
+
+        <p class="mutual-text">
+            2 mutual friends
+        </p>
+
+        <button>
+            Add Friend
+        </button>
+
+    </div>
+
+    <div>
+
+        <img class="picture" src="picture/cat2.jpg">
+
+        <p class="name-text">
+            Mimi
+        </p>
+
+        <p class="mutual-text">
+            3 mutual friends
+        </p>
+
+        <button>
+            Add Friend
+        </button>
+
+    </div>
+
+    <div>
+
+        <img class="picture" src="picture/cat3.jpg">
+
+        <p class="name-text">
+            Rex
+        </p>
+
+        <p class="mutual-text">
+            4 mutual friends
+        </p>
+
+        <button>
+            Add Friend
+        </button>
+
+    </div>
+        
+</body>
+</html>
