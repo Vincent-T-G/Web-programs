@@ -1,0 +1,138 @@
+<!-- Lesson 10 Exercises - Nestes Layouts Technique -->
+
+<!-- 10a. Recreate the following using the Nested Layout Technique-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10a</title>
+    <style>
+
+        .outside-box
+        {
+            margin-top: 30px;
+            margin-left: 20px;
+            width: 700px;
+            padding: 10px 10px 10px 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+            border-radius: 7px;
+        }
+            
+        .follow-button
+        {
+            background-color: rgb(29, 155, 240);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 35px;
+            padding-right: 35px;
+            font-weight: bold;
+            font-size: 25px;
+            cursor: pointer;
+            vertical-align: middle;
+            margin-left: 0px;
+        }
+
+        .text-box
+        {
+            vertical-align: middle;
+            font-size: 30px;
+            margin-left: 0px;
+            margin-right: 45px;
+            border: none;
+            color: rgb(99, 99, 99);
+        }
+
+        .picture
+        {
+            vertical-align: middle;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 100px;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+
+        .column1
+        {
+            display: inline-block;
+            width: 100px;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+
+        .column2
+        {
+            display: inline-block;
+            vertical-align: middle;
+            width: 380px;
+            margin-right: 20px;
+        }
+
+        .column3
+        {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: end;
+        }
+
+        .handle-text
+        {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+
+        .sub-text,.under-text
+        {
+            font-size: 20px;
+            color: rgb(95, 95, 95);
+            margin-top: 0;
+        }
+
+        .sub-text
+        {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="outside-box">
+        <div class="column1">
+            <img class="picture" src="picture/cat.jpg">
+        </div>
+
+       <div class="column2">
+        
+        <p class="handle-text">
+            oliver
+        </p>
+
+        <p class="sub-text">
+            the cat
+        </p>
+
+        <p class="under-text">
+            Popular
+        </p>
+
+       </div>
+
+       <div class="column3">
+            <button class="follow-button">
+                Follow
+            </button> 
+       </div>
+           
+        
+    </div>
+
+</body>
+</html>
