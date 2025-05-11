@@ -1,0 +1,116 @@
+<!-- Lesson 13 Exercises - Nested Flexbox -->
+
+<!-- 13c. Code the design from gmail ios. -->
+<!-- Use flexbox for horizontal layouts and regular divs for vertical layouts -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 13c</title>
+</head>
+<body>
+    
+    <div style=
+    "
+    margin: 30px;
+    border-width: 2px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: gray;
+    width: 600px;
+    height: 180px;
+    padding: 20px;
+    "
+    >
+        
+        <div style=
+        "
+        font-size: 20px;
+        "
+        >ALL INBOXES</div>
+
+        <div style=
+        "
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        "
+        >
+            <div style=
+            "
+            width: 80px;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin-right: 12px;
+            ">
+                <img style=
+                "
+                height: 80px;
+                width: 80px;
+                border-radius: 40px;
+                object-position: center;
+                object-fit: cover;
+                "
+                src="picture/cat.jpg">
+            </div>
+
+            <div style=
+            "
+            flex: 1;
+            height: 100%;
+            "
+            >
+
+                <div style=
+                "
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+                margin-top: 10px;
+                "
+                >
+                    <p style=
+                    "
+                    margin-bottom: 0;
+                    font-weight: bold;
+                    color: black;
+                    font-size: 25px;
+                    "
+                    >Chewy Promotions</p>
+                    <p style=
+                    "
+                    margin-bottom: 0;
+                    font-size: 20px;
+                    "
+                    >4:58 PM</p>
+                </div>
+                <div style=
+                "
+                font-weight: bold;
+                color: black;
+                font-size: 22px;
+                margin-bottom: 10px;
+                "
+                >
+                    Biggest sales of the year!
+                </div>
+                <div style=
+                "
+                font-size: 20px;
+                ">
+                    Hey there! We're writing to tell you about our...
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
