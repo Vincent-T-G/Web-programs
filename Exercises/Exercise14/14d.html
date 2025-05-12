@@ -1,0 +1,102 @@
+<!-- Lesson 14 Exercises - Position Fixed -->
+<!-- For these exercises set the body height to 3000px so you can scroll -->
+
+<!-- 14d. We'll create a modal -->
+
+<!-- 
+STEPS
+    >start from exercise 14b
+    >create an element that covers the entire page with background-color:rgba(0, 0, 0, 0.8);(this is called an overlay)
+    >make the overlay a flexbox and center its contents horizontally and vertically
+    >add a <div> in the overlay and create the modal
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14d</title>
+</head>
+<body style=
+"
+height: 3000px;
+"
+>
+    
+    <div style=
+    "
+    background-color: green;
+    color: white;
+    position: fixed;
+    width: 300px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 25px;
+    "
+    >
+        right sidebar
+    </div>
+    
+    <div style=
+    "
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    "
+    >
+
+        <div style=
+        "
+        background-color: white;
+        height: 300px;
+        width: 1000px;
+        border-radius: 12px;
+        padding-left: 50px;
+        padding-top: 10px;
+        "
+        >
+
+            <p style=
+            "
+            font-size: 45px;
+            font-weight: bold;
+            "
+            >
+                Modal Title
+            </p>
+
+            <p style=
+            "
+            font-size: 25px;
+            font-weight: 500;
+            "
+            >
+                This is a modal
+            </p>
+            <button style=
+            "
+            font-size: 25px;
+            font-weight: 400;
+            border-radius: 4px;
+            border-color: gray;
+            border-style: solid;
+            "
+            >
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

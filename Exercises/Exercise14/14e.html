@@ -1,0 +1,107 @@
+<!-- Lesson 14 Exercises - Position Fixed -->
+<!-- For these exercises set the body height to 3000px so you can scroll -->
+
+<!-- 14e. Use a combination of position fixed and flexbox to create this header from facebook
+     and stick it to the top of the page -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 14e</title>
+</head>
+<body style=
+"
+height: 3000px;
+"
+>
+
+    <div style=
+    "
+    background-color: white;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    "
+    >
+
+        <div style=
+        "
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        justify-content: space-between;
+        align-items: center;
+        ">
+
+            <img style=
+            "
+            height: 100px;
+            width: 100px;
+            object-position: center;
+            object-fit: cover;
+            border-radius: 50px;
+            "
+            src="picture/cat.jpg">
+
+            <p style=
+            "
+            font-weight: bold;
+            font-size: 20px;
+            "
+            >
+                Oliver Cat
+            </p>
+
+        </div>
+
+        <div>
+
+            <button style=
+            "
+            background-color: rgb(79, 79, 255);
+            color: white;
+            font-size: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            "
+            >
+                Add Friend
+            </button>
+
+            <button style=
+            "
+            font-size: 18px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: none;
+            border-radius: 5px;
+            "
+            >
+                Message
+            </button>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
