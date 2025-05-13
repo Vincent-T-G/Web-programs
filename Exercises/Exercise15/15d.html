@@ -1,0 +1,69 @@
+<!-- Lesson 15 exercises - Position Absolute and Relative -->
+
+<!-- For these exercises, set the <body> height to 3000px so you can scroll -->
+
+<!-- 15d. Imagine 15c is a video ad in the bottom right corner. Add a timestamp in the bottom corner -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 15d</title>
+</head>
+<body style=
+"
+height: 3000px;
+"
+>
+    <div style=
+        "
+        background-color: gray;
+        width: 320px;
+        height: 180px;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        "
+        >
+        <div>
+            <button style=
+            "
+            font-size: 25px;
+            background-color: black;
+            color: white;
+            padding-left: 12px;
+            padding-top: 4px;
+            padding-right: 12px;
+            padding-bottom: 4px;
+            border-radius: 30px;
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            border: 1px solid black;
+            "
+            >
+                x
+            </button>
+        </div>
+
+        <div style=
+        "
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+        border-radius: 1px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+        "
+        >
+            0:29
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!-- Lesson 15 exercises - Position Absolute and Relative -->
+
+<!-- For these exercises, set the <body> height to 3000px so you can scroll -->
+
+<!-- 15e. Find an image of clothing online and create the design -->
+ <!-- You'll need position: absolute inside position: relative -->
+  <!-- Set the position: relative container to display: inline-block-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 15e</title>
+</head>
+<body style=
+"
+height: 3000px;
+"
+>
+    <div style=
+    "
+    position: relative;
+    display: inline-block;
+    "
+    >
+        <img src="pictures/Shirt.jpg">
+        <div style=
+        "
+        font-size: 18px;
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        top: 10px;
+        right: 0;
+        "
+        >
+            20% OFF
+        </div>
+    </div>
+</body>
+</html>

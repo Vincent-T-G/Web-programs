@@ -1,0 +1,73 @@
+<!-- Lesson 15 exercises - Position Absolute and Relative -->
+
+<!-- For these exercises, set the <body> height to 3000px so you can scroll -->
+
+<!-- 15f. Create the design below -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Exercise 15f</title>
+  </head>
+  <body style=
+  "
+  height: 3000px;
+  padding-top: 30px;
+  padding-left: 30px;
+  "
+  >
+      <div style=
+      "
+      position: relative;
+      display: inline-block;
+      "
+      >
+          <img src="pictures/Shirt.jpg">
+          <div style=
+          "
+          font-size: 18px;
+          position: absolute;
+          background-color: black;
+          color: white;
+          padding-top: 3px;
+          padding-bottom: 3px;
+          padding-left: 5px;
+          padding-right: 5px;
+          top: 10px;
+          right: 0;
+          "
+          >
+              20% OFF
+          </div>
+
+          <div style=
+          "
+          height: 35%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: rgba(255, 255, 255, 0.6);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          "
+          >
+            <button style=
+            "
+            border: 2px solid black;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-weight: 500;
+            "
+            >
+                Add to Cart
+            </button>
+          </div>
+      </div>
+  </body>
+  </html>
